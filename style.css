@@ -1,0 +1,112 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .header {
+    background-color: rgb(50, 167, 145);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .trybewarts-header-logo {
+    order: 1;
+    width: 65px;
+    align-items: left;
+  }
+  
+  #trybewarts-header-title {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    order: 2;
+  }
+  
+  .trybewarts-login {
+    order: 3;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    width: 200px;
+    padding-right: 50px;
+  }
+  
+  #login , #senha {
+    width: 50px;
+    height: 35px;
+  }
+  
+  #main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #evaluation-form {
+    display: flex;
+    width: 675px;
+    text-align: center;
+    flex-flow: column wrap;
+  }
+  
+  #trybewarts-forms-logo {
+    display: flex;
+    height: 500px;
+  }
+  
+  #first , #second , #third {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 2px black solid;
+    padding-bottom: 10px;
+    width: 100%;
+    margin: 10px;
+  }
+  
+  .input {
+    display: flex;
+    width: 100%;
+  }
+  
+  #second {
+    flex-flow: row;
+  }
+  
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  #firstform , #secondform {
+    display: flex;
+    width: 100%;
+  }
+  
+  .segundo {
+    display: flex;
+    width: 100%;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(50, 167, 145);
+    color: white;
+    text-align: center;
+  }
+  
+  .itemr {
+    align-items: right;
+  }
+  
+  .textarea , #sithform , #third {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    resize: none;
+  }
